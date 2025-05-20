@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(24, 24, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 20rem;
+    margin: 20px auto;
+}
+.nav {
+    padding-bottom: 2rem;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    font-size: 20px;
+}
+.nav button {
+    text-decoration: none;
+    color: rgb(189, 184, 184);
+    border: none;
+    background:none;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Segoe UI';
+    text-wrap: nowrap;
+}
+.nav button:hover{
+    color: cyan;
+}
+.content {
+    color:white;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+
+hr {
+    border-color: rgb(0, 0, 0);
+
+}
+#image {
+    border-radius: 50%;
+    justify-content: center;
+    margin:auto;
+    display: block;
+    object-fit: cover;
+    width: 140px;
+    height: 140px;
+}
+#name {
+    text-align: center;
+    color: rgb(73, 89, 117);
+    font-style: bold;
+    font-size: 2rem;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+  @media(max-width:1024px) {
+        body {
+            margin: 10px auto;
+            padding: 0 10rem;
+        }
+         #name {
+            font-size: 2rem;
+        }
+    }
+    @media(max-width:750px) {
+        body {
+            margin: 10px 30px;
+            padding: 0 1rem;
+    }
+    .nav button {
+        font-size: 18px;
+    }
+        #image {
+        border-radius: 50%;
+        justify-content: center;
+        margin: auto;
+        display: block;
+        object-fit: cover;
+        width: 100px;
+        height: 100px;  
+    }
+        .content p {
+            font-size: 15px;
+        }
+        #name {
+            font-size: 1.6rem;
+        }
+    }
+    @media(max-width:450px) {
+        body {
+            margin: 10px 30px;
+            margin: 20px auto;
+        }
+        .nav button {
+        font-size: 15px;
+    }
+        #image {
+            border-radius: 50%;
+            justify-content: center;
+            margin: auto;
+            display: block;
+            object-fit: cover;
+            width: 100px;
+            height: 100px;
+    }
+        #name {
+            font-size: 1.5rem;
+            }
+        .content p {
+            font-size: 13px
+        }
+    }
+span {
+    color: rgb(97, 121, 163);
+}
+#link-txt {
+    color:rgb(91, 110, 150);
+}
+footer h2{
+    justify-content: left;
+    text-align: center;
+    display: flex;   
+    gap: 1.5rem;
+ 
+}
+footer a{
+    color: rgb(5, 123, 153);
+}
+footer a:hover{
+    color: rgb(7, 204, 253);
+}
+

@@ -1,0 +1,49 @@
+{% load static %}
+{% comment %}
+  If you're seeing this message in a web page, You wrongly opened it Dumbass.
+{% endcomment %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portfolio </0_0/> </title>
+    <link rel="icon" href="{% static 'image/circular-1.png' %}"/>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="profile">
+      <img id="image" src="{% static 'image/cho.jpg' %}"/>
+      <p id="name">Carl Ambay</p>
+    </div>
+    
+    <div class="nav">
+        <button data-target="home">Home</button>
+        <button data-target="about">My Journey</button>
+        <button data-target="contacts">Projects</button>
+    </div>
+
+    <div class="content">
+        <hr>
+        <p>Hi, My name is Carl.</p>
+        <p>I'm an aspiring full-stack developer with a strong focus on backend systems. Currently sharpening my skills in tech stacks like <span>Django, React,</span> relational and non-relational databases such as <span>MySQL,
+         PostgreSQL (SQL), and MongoDB (NoSQL)</span>  — always curious, always building.
+        <p>I'm also exploring <span>DevOps</span> tools and diving into <span>Cybersecurity</span> to become a more well-rounded and security-conscious developer capable of handling modern web application.</p>
+    </div>
+    <div class="footer">
+        <footer>
+            <h2 id="link-txt">Links :
+                <a href="https://github.com/greysuyen" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i></a>
+                <a href="https://web.facebook.com/plsgiveme1mburgers" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/carl_synn/" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i></a>
+            </h2>
+        </footer>
+    </div>
+    <script src="{% static 'main.js' %}"></script>
+</body>
+</html>
