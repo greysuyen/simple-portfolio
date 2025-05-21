@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(218, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0 20rem;
     margin: 20px auto;
 }
-.nav {
+nav {
     padding-bottom: 2rem;
     justify-content: center;
     text-align: center;
@@ -12,7 +12,7 @@ body {
     gap: 2rem;
     font-size: 20px;
 }
-.nav button {
+nav button {
     text-decoration: none;
     color: rgb(189, 184, 184);
     border: none;
@@ -22,7 +22,7 @@ body {
     font-family: 'Segoe UI';
     text-wrap: nowrap;
 }
-.nav button:hover{
+nav button:hover{
     color: cyan;
 }
 .content {
@@ -67,7 +67,7 @@ hr {
             margin: 10px 30px;
             padding: 0 1rem;
     }
-    .nav button {
+    nav button {
         font-size: 18px;
     }
         #image {
@@ -91,7 +91,7 @@ hr {
             margin: 10px 30px;
             margin: 20px auto;
         }
-        .nav button {
+        nav button {
         font-size: 15px;
     }
         #image {
@@ -129,4 +129,3 @@ footer a{
 footer a:hover{
     color: rgb(7, 204, 253);
 }
-
