@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Fira+Code&display=swap');
+
 body {
-  background-color: black;  
+  background-color: rgb(19, 19, 19);  
   padding: 0 20rem;
-  font-family: 'Segoe UI'
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
@@ -9,7 +11,7 @@ nav {
     justify-content: center;
     text-align: center;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     font-size: 20px;
 }
 nav button {
@@ -17,17 +19,18 @@ nav button {
     color: rgb(189, 184, 184);
     border: none;
     background:none;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 100;
     font-family: 'Segoe UI';
     text-wrap: nowrap;
+
 }
 nav button:hover{
     color: cyan;
 }
 .active {
     color:white;
-    font-size: 20px;
+    font-size: 17px;
     margin-bottom: 3rem;
 }
 
@@ -41,33 +44,36 @@ hr {
     margin:auto;
     display: block;
     object-fit: cover;
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
 }
 #name {
+    font-weight: 100;
     text-align: center;
     color: rgb(73, 89, 117);
-    font-style: bold;
     font-size: 2rem;
     padding: 0;
     margin-top: 10px;
     margin-bottom: 20px;
+    font-family: none;
 }
-
 
 span {
     color: rgb(97, 121, 163);
 }
 #link-txt {
     color:rgb(91, 110, 150);
+    font-size: 22px
 }
-footer h2{
+
+footer, footer h2{
     justify-content: left;
     text-align: center;
     display: flex;   
     gap: 1.5rem;
- 
+    padding-top: 1px;
 }
+
 footer a{
     color: rgb(5, 123, 153);
 }
