@@ -27,17 +27,18 @@
 </style>
 </head>
 <body>
-    <div class="profile">
-      <img id="image" src="{% static 'image/cho.jpg' %}"/>
-      <p id="name">Carl Ambay</p>
-    </div>
-    
-    <nav>
-        <button data-target="home">Home</button>
-        <button data-target="about">My Journey</button>
-        <button data-target="contact">Projects</button>
-    </nav>
-  
+  <div class="profile">
+    <div class="icon">
+        <img id="image" src="{% static 'image/cho.jpg' %}"/>
+        <p id="name">Carl Ambay</p>
+      </div>
+
+      <nav>
+          <button data-target="home">Home</button>
+          <button data-target="about">My Journey</button>
+          <button data-target="contact">Projects</button>
+      </nav>
+  </div>
     <main>
       <section class="active" id="home">
         <hr>

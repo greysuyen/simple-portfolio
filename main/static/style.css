@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(17, 17, 17);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0 20rem;
-    margin: 20px auto;
+  background-color: black;  
+  padding: 0 20rem;
+  font-family: 'Segoe UI'
 }
+
 nav {
     padding-bottom: 2rem;
     justify-content: center;
@@ -17,7 +17,7 @@ nav button {
     color: rgb(189, 184, 184);
     border: none;
     background:none;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 100;
     font-family: 'Segoe UI';
     text-wrap: nowrap;
@@ -53,63 +53,8 @@ hr {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-  @media(max-width:1024px) {
-        body {
-            margin: 10px auto;
-            padding: 0 10rem;
-        }
-         #name {
-            font-size: 2rem;
-        }
-    }
-    @media(max-width:750px) {
-        body {
-            margin: 10px 30px;
-            padding: 0 1rem;
-    }
-    nav button {
-        font-size: 18px;
-    }
-        #image {
-        border-radius: 50%;
-        justify-content: center;
-        margin: auto;
-        display: block;
-        object-fit: cover;
-        width: 100px;
-        height: 100px;  
-    }
-        .content p {
-            font-size: 15px;
-        }
-        #name {
-            font-size: 1.6rem;
-        }
-    }
-    @media(max-width:450px) {
-        body {
-            margin: 10px 30px;
-            margin: 20px auto;
-        }
-        nav button {
-        font-size: 15px;
-    }
-        #image {
-            border-radius: 50%;
-            justify-content: center;
-            margin: auto;
-            display: block;
-            object-fit: cover;
-            width: 100px;
-            height: 100px;
-    }
-        #name {
-            font-size: 1.5rem;
-            }
-        .content p {
-            font-size: 13px
-        }
-    }
+
+
 span {
     color: rgb(97, 121, 163);
 }
@@ -128,4 +73,34 @@ footer a{
 }
 footer a:hover{
     color: rgb(7, 204, 253);
+}
+
+
+@media (max-width: 1440px) {
+  body {
+    padding: 0 10rem;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  body {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0 1rem;
+  }
+  nav {
+    gap: 15px;
+  }
+  
 }
