@@ -24,7 +24,6 @@ nav button {
     font-weight: 100;
     font-family: 'Segoe UI';
     text-wrap: nowrap;
-
 }
 nav button:hover{
     color: cyan;

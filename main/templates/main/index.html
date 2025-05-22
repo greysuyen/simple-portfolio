@@ -15,58 +15,59 @@
     <style>
 </style>
 </head>
-<body>
-  <div class="profile">
-    <div class="icon">
+  <body>
+    <div class="profile">
+      <div class="icon">
         <img id="image" src="{% static 'image/cho.jpg' %}"/>
         <p id="name">Carl Ambay</p>
-      </div>  
+        </div>  
+      </div>
       <nav>
-          <button data-target="home">Home</button>
-          <button data-target="about">My Journey</button>
-          <button data-target="contact">Projects</button>
+        <button data-target="home">Home</button>
+        <button data-target="about">My Journey</button>
+        <button data-target="contact">Projects</button>
       </nav>
-  </div>
-    <main>
-      <section class="active" id="home">
-        <hr>
-        <p>Hi, My name is Carl.</p>
-        <p>I'm an aspiring full-stack developer with a strong focus on backend systems. Currently sharpening my skills in tech stacks like 
-        <span>Django, React,</span> relational and non-relational databases such as <span>MySQL,
-        PostgreSQL (SQL), MongoDB and Cassandra(NoSQL)</span>  — always curious, always building.
-        <p>I'm also exploring <span>DevOps</span> tools and diving into <span>Cybersecurity</span>
-          to become a more well-rounded and security-conscious developer capable of handling modern web application.</p>
+      <main>
+        <section class="active" id="home">
+          <hr>
+          <p>Hi, My name is Carl.</p>
+          <p>I'm an aspiring full-stack developer with a strong focus on backend systems. Currently sharpening my skills in tech stacks like 
+          <span>Django, React,</span> relational and non-relational databases such as <span>MySQL,
+          PostgreSQL (SQL), MongoDB and Cassandra(NoSQL)</span>  — always curious, always building.
+          <p>I'm also exploring <span>DevOps</span> tools and diving into <span>Cybersecurity</span>
+            to become a more well-rounded and security-conscious developer capable of handling modern web application.</p>
 
-        <div class="footer">
-            <footer>
-                <h2 id="link-txt">Links :
-                    <a href="https://github.com/greysuyen" target="_blank" aria-label="GitHub">
-                    <i class="fab fa-github"></i></a>
+          <div class="footer">
+              <footer>
+                  <h2 id="link-txt">Links :
+                      <a href="https://github.com/greysuyen" target="_blank" aria-label="GitHub">
+                      <i class="fab fa-github"></i></a>
 
-                    <a href="https://web.facebook.com/plsgiveme1mburgers" target="_blank" aria-label="Facebook">
-                    <i class="fab fa-facebook"></i></a>
-                    
-                    <a href="https://www.instagram.com/carl_synn/" target="_blank" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i></a>
-                </h2>
-            </footer>
-        </section> 
-  <section id="about">
-    <h1>About Me</h1>
-    <p>Here is some infos about me.</p>
-  </section>
+                      <a href="https://web.facebook.com/plsgiveme1mburgers" target="_blank" aria-label="Facebook">
+                      <i class="fab fa-facebook"></i></a>
+                      
+                      <a href="https://www.instagram.com/carl_synn/" target="_blank" aria-label="Instagram">
+                      <i class="fab fa-instagram"></i></a>
+                  </h2>
+              </footer>
+          </section> 
+    <section id="about">
+      <h1>About Me</h1>
+      <p>Here is some infos about me.</p>
+    </section>
 
-  <section id="projects">
-    <h1>My Projects</h1>
-    <p>Here are some of my projects.</p>
-  </section>
+    <section id="projects">
+      <h1>My Projects</h1>
+      <p>Here are some of my projects.</p>
 
-  <section id="contact">
-    <h1>Contact Me</h1>
-    <p>Get in touch!</p>
-  </section>
-</main>
+    </section>
 
-<script src="{% static 'main.js' %}"></script>
-</body>
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <p>Get in touch!</p>
+    </section>
+  </main>
+
+  <script src="{% static 'main.js' %}"></script>
+  </body>
 </html>
