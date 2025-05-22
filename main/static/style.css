@@ -12,7 +12,6 @@ nav {
     justify-content: center;
     text-align: center;
     display: flex;
-    gap: 1rem;
     font-size: 20px;
 }
 nav button {
@@ -115,8 +114,41 @@ footer a:hover{
   body {
     padding: 0 1rem;
   }
-  nav {
-    gap: 15px;
-  }
-  
+
+}
+.img_container {
+  text-align: center;
+  display: flex;
+  align-items: center;      
+  gap: 1rem;            
+  flex-wrap: wrap;        
+  justify-content: center;
+}
+
+.proj-img {
+  border-radius: 10px;
+  height: 130px;          
+  width: 130px;              
+  flex-shrink: 0;      
+  box-shadow: 0 0 10px rgb(94, 94, 100);      
+}
+#proj-img-1,#proj-img-2 {
+  max-width: 20%;
+  height: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  display: block;
+}
+.bt-title {
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  display: flex;  
+  text-wrap: nowrap;
+    color: rgb(189, 184, 184);
+}
+.img_container a {
+  text-decoration: none;
+  color: rgb(108, 133, 175);
 }
