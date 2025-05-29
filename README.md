@@ -2,14 +2,14 @@
 
 A simple and clean portfolio website built with Django for showcasing projects, skills, and contact information.
 
-## 🚀 Features
+##  Features
 
 - Responsive layout
 - Project showcase section
 - About and contact pages
 - Built using Django
 
-## 🛠️ Installation
+## 🛠 Installation
 
 Follow these steps to run the project locally:
 
