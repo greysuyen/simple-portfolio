@@ -19,3 +19,6 @@ Follow these steps to run the project locally:
 git clone https://github.com/greysuyen/simple-portfolio.git
 cd simple-portfolio
 python manage.py runserver
+```
+#### site : https://www.choyih.netlify.app
+
