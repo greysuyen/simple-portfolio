@@ -20,5 +20,6 @@ git clone https://github.com/greysuyen/simple-portfolio.git
 cd simple-portfolio
 python manage.py runserver
 ```
-#### site : https://choyih.netlify.app
+#### Live site : https://choyih.netlify.app
+
 
